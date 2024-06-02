@@ -47,7 +47,7 @@ Grow Your Insurance Business Today</h1>
                     />
 
                     <Image
-                      src="/images/banner-image/code.png"
+                      src="/images/banner-image/ins.png"
                       alt="code"
                       width={174}
                       height={111}
