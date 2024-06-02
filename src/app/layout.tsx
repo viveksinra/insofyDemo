@@ -21,9 +21,9 @@ const overpass = Overpass({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Insofy - MultiDomain Technology Services & IT Startup",
+    "Insofy - Insurance, Simply Better",
   description:
-    "Insofy - MultiDomain Technology Services & IT Startup - Website build by Vivek Singh",
+    "Insofy - INSURANCE, SIMPLY BETTER - Website build by Vivek Singh",
 };
 
 export default function RootLayout({
