@@ -1,12 +1,12 @@
 export const menus = [
   {
     label: "Home",
-    link: "#",
+    link: "/",
     submenu: [
-      {
-        label: "Creative Agency",
-        link: "/",
-      },
+      // {
+      //   label: "Creative Agency",
+      //   link: "/",
+      // },
       // {
       //   label: "Strategic Agency",
       //   link: "/strategic-agency/",
