@@ -7,50 +7,50 @@ export const menus = [
         label: "Creative Agency",
         link: "/",
       },
-      {
-        label: "Strategic Agency",
-        link: "/strategic-agency/",
-      },
-      {
-        label: "Digital Agency",
-        link: "/digital-agency/",
-      },
-      {
-        label: "Marketing Agency",
-        link: "/marketing-agency/",
-      },
-      {
-        label: "IT Startup",
-        link: "/it-startup/",
-      },
-      {
-        label: "SEO Agency",
-        link: "/seo-agency/",
-      },
-      {
-        label: "SaaS Agency",
-        link: "/saas-agency/",
-      },
-      {
-        label: "AI & Machine Learning",
-        link: "/ai-machine-learning/",
-      },
-      {
-        label: "Portfolio Agency",
-        link: "/portfolio-agency/",
-      },
-      {
-        label: "Cryptocurrency",
-        link: "/cryptocurrency/",
-      },
-      {
-        label: "Cyber Security",
-        link: "/cyber-security/",
-      },
-      {
-        label: "Big Data Solution",
-        link: "/big-data-solution/",
-      },
+      // {
+      //   label: "Strategic Agency",
+      //   link: "/strategic-agency/",
+      // },
+      // {
+      //   label: "Digital Agency",
+      //   link: "/digital-agency/",
+      // },
+      // {
+      //   label: "Marketing Agency",
+      //   link: "/marketing-agency/",
+      // },
+      // {
+      //   label: "IT Startup",
+      //   link: "/it-startup/",
+      // },
+      // {
+      //   label: "SEO Agency",
+      //   link: "/seo-agency/",
+      // },
+      // {
+      //   label: "SaaS Agency",
+      //   link: "/saas-agency/",
+      // },
+      // {
+      //   label: "AI & Machine Learning",
+      //   link: "/ai-machine-learning/",
+      // },
+      // {
+      //   label: "Portfolio Agency",
+      //   link: "/portfolio-agency/",
+      // },
+      // {
+      //   label: "Cryptocurrency",
+      //   link: "/cryptocurrency/",
+      // },
+      // {
+      //   label: "Cyber Security",
+      //   link: "/cyber-security/",
+      // },
+      // {
+      //   label: "Big Data Solution",
+      //   link: "/big-data-solution/",
+      // },
     ],
   },
   {
@@ -77,10 +77,10 @@ export const menus = [
         label: "Features",
         link: "/features/",
       },
-      {
-        label: "Pricing",
-        link: "/pricing/",
-      },
+      // {
+      //   label: "Pricing",
+      //   link: "/pricing/",
+      // },
       {
         label: "Partner",
         link: "/partner/",
@@ -121,54 +121,54 @@ export const menus = [
       },
     ],
   },
-  {
-    label: "Projects",
-    link: "#",
-    submenu: [
-      {
-        label: "Projects Style One",
-        link: "/projects/",
-      },
-      {
-        label: "Projects Style Two",
-        link: "/projects/2/",
-      },
-      {
-        label: "Projects Style Three",
-        link: "/projects/3/",
-      },
-      {
-        label: "Projects Style Four",
-        link: "/projects/4/",
-      },
-      {
-        label: "Project Details",
-        link: "/projects/details/",
-      },
-    ],
-  },
-  {
-    label: "Shop",
-    link: "#",
-    submenu: [
-      {
-        label: "Shop",
-        link: "/shop/",
-      },
-      {
-        label: "Single Products",
-        link: "/shop/details/",
-      },
-      {
-        label: "Cart",
-        link: "/shop/cart/",
-      },
-      {
-        label: "Checkout",
-        link: "/shop/checkout/",
-      },
-    ],
-  },
+  // {
+  //   label: "Projects",
+  //   link: "#",
+  //   submenu: [
+  //     {
+  //       label: "Projects Style One",
+  //       link: "/projects/",
+  //     },
+  //     {
+  //       label: "Projects Style Two",
+  //       link: "/projects/2/",
+  //     },
+  //     {
+  //       label: "Projects Style Three",
+  //       link: "/projects/3/",
+  //     },
+  //     {
+  //       label: "Projects Style Four",
+  //       link: "/projects/4/",
+  //     },
+  //     {
+  //       label: "Project Details",
+  //       link: "/projects/details/",
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: "Shop",
+  //   link: "#",
+  //   submenu: [
+  //     {
+  //       label: "Shop",
+  //       link: "/shop/",
+  //     },
+  //     {
+  //       label: "Single Products",
+  //       link: "/shop/details/",
+  //     },
+  //     {
+  //       label: "Cart",
+  //       link: "/shop/cart/",
+  //     },
+  //     {
+  //       label: "Checkout",
+  //       link: "/shop/checkout/",
+  //     },
+  //   ],
+  // },
   {
     label: "Blog",
     link: "#",
