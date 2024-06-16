@@ -2,7 +2,11 @@ export const menus = [
   {
     label: "Home",
     link: "/",
-    submenu: [
+  },
+  // {
+  //   label: "Home",
+  //   link: "/",
+  //   submenu: [
       // {
       //   label: "Creative Agency",
       //   link: "/",
@@ -51,76 +55,82 @@ export const menus = [
       //   label: "Big Data Solution",
       //   link: "/big-data-solution/",
       // },
-    ],
-  },
+  //   ],
+  // },
   {
-    label: "Pages",
-    link: "#",
-    submenu: [
-      {
-        label: "About Us",
-        link: "/about/",
-      },
-      {
-        label: "About Us Two",
-        link: "/about2/",
-      },
-      {
-        label: "Team 1",
-        link: "/team/",
-      },
-      {
-        label: "Team 2",
-        link: "/team2/",
-      },
-      {
-        label: "Features",
-        link: "/features/",
-      },
-      // {
-      //   label: "Pricing",
-      //   link: "/pricing/",
-      // },
-      {
-        label: "Partner",
-        link: "/partner/",
-      },
-      {
-        label: "Login",
-        link: "/login/",
-      },
-      {
-        label: "Signup",
-        link: "/signup/",
-      },
-      {
-        label: "Faq",
-        link: "/faq/",
-      },
-    ],
+    label: "About Us",
+    link: "/about/",
   },
-  {
-    label: "Services",
-    link: "#",
-    submenu: [
-      {
-        label: "Services Style One",
-        link: "/services/",
-      },
-      {
-        label: "Services Style Two",
-        link: "/services/2/",
-      },
-      {
-        label: "Services Style Three",
-        link: "/services/3/",
-      },
-      {
-        label: "Service Details",
-        link: "/services/details/",
-      },
-    ],
-  },
+
+  // {
+  //   label: "Pages",
+  //   link: "#",
+  //   submenu: [
+  //     {
+  //       label: "About Us",
+  //       link: "/about/",
+  //     },
+  //     {
+  //       label: "About Us Two",
+  //       link: "/about2/",
+  //     },
+  //     {
+  //       label: "Team 1",
+  //       link: "/team/",
+  //     },
+  //     {
+  //       label: "Team 2",
+  //       link: "/team2/",
+  //     },
+  //     {
+  //       label: "Features",
+  //       link: "/features/",
+  //     },
+  //     // {
+  //     //   label: "Pricing",
+  //     //   link: "/pricing/",
+  //     // },
+  //     {
+  //       label: "Partner",
+  //       link: "/partner/",
+  //     },
+  //     {
+  //       label: "Login",
+  //       link: "/login/",
+  //     },
+  //     {
+  //       label: "Signup",
+  //       link: "/signup/",
+  //     },
+  //     {
+  //       label: "Faq",
+  //       link: "/faq/",
+  //     },
+  //   ],
+  // },
+
+  // {
+  //   label: "Services",
+  //   link: "#",
+  //   submenu: [
+  //     {
+  //       label: "Services Style One",
+  //       link: "/services/",
+  //     },
+  //     {
+  //       label: "Services Style Two",
+  //       link: "/services/2/",
+  //     },
+  //     {
+  //       label: "Services Style Three",
+  //       link: "/services/3/",
+  //     },
+  //     {
+  //       label: "Service Details",
+  //       link: "/services/details/",
+  //     },
+  //   ],
+  // },
   // {
   //   label: "Projects",
   //   link: "#",
@@ -169,26 +179,30 @@ export const menus = [
   //     },
   //   ],
   // },
-  {
-    label: "Blog",
-    link: "#",
-    submenu: [
-      {
-        label: "Blog Grid",
-        link: "/blog/",
-      },
-      {
-        label: "Blog Right Sidebar",
-        link: "/blog/with-right-sidebar/",
-      },
-      {
-        label: "Blog Details",
-        link: "/blog/details/",
-      },
-    ],
-  },
+  // {
+  //   label: "Blog",
+  //   link: "#",
+  //   submenu: [
+  //     {
+  //       label: "Blog Grid",
+  //       link: "/blog/",
+  //     },
+  //     {
+  //       label: "Blog Right Sidebar",
+  //       link: "/blog/with-right-sidebar/",
+  //     },
+  //     {
+  //       label: "Blog Details",
+  //       link: "/blog/details/",
+  //     },
+  //   ],
+  // },
   {
     label: "Contact",
     link: "/contact/",
+  },
+  {
+    label: "Login",
+    link: "/login/",
   },
 ];
