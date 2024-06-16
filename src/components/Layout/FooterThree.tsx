@@ -22,9 +22,7 @@ const FooterThree: React.FC = () => {
                 </Link>
 
                 <p>
-                  Lorem ipsum dolor sit amet, is consectetur adipiscing elit,
-                  sed do ipsum lorem dollar eiusmo. Lorem ipsum dolor sit amet,
-                  is sit consectetur adipiscing elit.
+                We’re a team of individuals who are on a mission to disrupt the distribution of financial products. We focus on cultivating a tech-driven futuristic approach that streamlines accessibility and enhances the overall experience for our partners and consumers.
                 </p>
 
                 <ul className="social-links">
@@ -59,19 +57,18 @@ const FooterThree: React.FC = () => {
                 <ul className="footer-quick-links">
                   <li>
                     <Link href="/services/details">
-                      <i className="fa-solid fa-angles-right"></i> Threat Hunter
+                      <i className="fa-solid fa-angles-right"></i> General Insurance
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/details">
-                      <i className="fa-solid fa-angles-right"></i> Incident
+                      <i className="fa-solid fa-angles-right"></i> Motor Insurance
                       Responder
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/details">
-                      <i className="fa-solid fa-angles-right"></i> Secure
-                      Managed IT
+                      <i className="fa-solid fa-angles-right"></i> Term Insurance
                     </Link>
                   </li>
                   <li>
@@ -82,7 +79,7 @@ const FooterThree: React.FC = () => {
                   <li>
                     <Link href="/services/details">
                       <i className="fa-solid fa-angles-right"></i> Cyber
-                      Security
+                      Insurance
                     </Link>
                   </li>
                 </ul>
@@ -129,8 +126,7 @@ const FooterThree: React.FC = () => {
 
                 <ul className="contact-links">
                   <li>
-                    <span>Address:</span> 2750 Quadra Street Victoria Road, New
-                    York, Canada
+                    <span>Address:</span> 2750, Sector 81, Faridabad, Haryana 121002
                   </li>
                   <li>
                     <span>Website:</span>{" "}
@@ -144,7 +140,7 @@ const FooterThree: React.FC = () => {
                   </li>
                   <li>
                     <span>Phone:</span>{" "}
-                    <a href="tel:1234567890">+123 456 7890</a>
+                    <a href="tel:1234567890">+91 9846173905</a>
                   </li>
                 </ul>
               </div>

@@ -126,8 +126,7 @@ const FooterTwo: React.FC = () => {
 
                 <ul className="contact-links">
                   <li>
-                    <span>Address:</span> 2750 Quadra Street Victoria Road, New
-                    York, Canada
+                    <span>Address:</span> 2750, Sector 81, Faridabad, Haryana 121002
                   </li>
                   <li>
                     <span>Website:</span>{" "}
@@ -141,7 +140,7 @@ const FooterTwo: React.FC = () => {
                   </li>
                   <li>
                     <span>Phone:</span>{" "}
-                    <a href="tel:1234567890">+123 456 7890</a>
+                    <a href="tel:1234567890">+91 9846173905</a>
                   </li>
                 </ul>
               </div>

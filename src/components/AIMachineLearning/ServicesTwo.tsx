@@ -10,8 +10,8 @@ const services = [
     title: "Partner with us",
     description:
       "Fill up the simple one-time form and you are set to go with the best earnings & benefits on offer!",
-    imageSrc: "/images/machine-learning/ml-service3.png",
-    imageWidth: 148,
+    imageSrc: "/images/services/partner.png",
+    imageWidth: 240,
     imageHeight: 180,
   
   },
@@ -20,8 +20,8 @@ const services = [
     title: "Expand your network & start earning",
     description:
       "We're here to simplify the process for you as a leading insurance broker!",
-    imageSrc: "/images/machine-learning/ml-service4.png",
-    imageWidth: 200,
+    imageSrc: "/images/services/expand.png",
+    imageWidth: 240,
     imageHeight: 180,
 
   },
@@ -30,9 +30,9 @@ const services = [
     title: "Earn good commission",
     description:
       "Make more money per insurance policy! Too good to be true? Speak to our experts to know how!",
-    imageSrc: "/images/machine-learning/ml-service5.png",
-    imageWidth: 200,
-    imageHeight: 180,
+    imageSrc: "/images/services/start_earning.png",
+    imageWidth: 270,
+    imageHeight: 200,
   
   },
 ];

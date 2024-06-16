@@ -32,9 +32,10 @@ const BannerSlider: React.FC = () => {
                   <div className="row align-items-center">
                     <div className="col-lg-6">
                     <div className="hero-main-banner-content">
-                    <span className="sub-title">Insurance, Simply better</span>
+                    <span className="sub-title" style={{color:"#e5530f"}}>Insurance, Simply better</span>
+                    
                     <h1>Partner With Us,
-Grow Your Insurance Business Today</h1>
+Grow Your Insurance <span> Business </span>Today</h1>
                     <p>
                       We work hand-in-hand with industry-leading brands 
                     </p>
@@ -415,14 +416,14 @@ Grow Your Insurance Business Today</h1>
                 height={355}
               />
             </div>
-            <div className="shape-img14">
+            {/* <div className="shape-img14">
               <Image
                 src="/images/shape/shape14.png"
                 alt="image"
                 width={234}
                 height={355}
               />
-            </div>
+            </div> */}
           </div>
         </SwiperSlide>
       </Swiper>

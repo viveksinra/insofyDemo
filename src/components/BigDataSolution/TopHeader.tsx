@@ -35,12 +35,11 @@ const TopHeader: React.FC = () => {
             <div className="col-lg-8 col-md-8">
               <ul className="topbar-action-list">
                 <li>
-                  <i className="bx bxs-map"></i> 2750 Quadra Street Victoria
-                  Road, New York, Canada
+                  <i className="bx bxs-map"></i> 2750, Sector 81, Faridabad, Haryana 121002
                 </li>
                 <li>
                   <i className="bx bxs-phone"></i> <span>Call</span>{" "}
-                  <a href="tel:1234567890">+123 456 7890</a>
+                  <a href="tel:1234567890">+91 9846173905</a>
                 </li>
               </ul>
             </div>

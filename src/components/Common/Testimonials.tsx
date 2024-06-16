@@ -5,10 +5,43 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 
+const testimonials = [
+  {
+    text: "Working as an insurance agent with Insofy has been an absolute game-changer for my business. The seamless and efficient processes have allowed me to focus more on serving my clients, resulting in increased satisfaction and retention rates.",
+    name: "Vivek Singh",
+    role: "POS Certified Partner",
+    image: "/images/client-image/client2.jpg",
+  },
+  {
+    text: "Insofy's insurance solutions have revolutionized the way I conduct business. The intuitive platform and prompt support have made my job significantly easier, allowing me to focus on providing the best service to my clients.",
+    name: "Rajat Jha",
+    role: "POS Certified Partner",
+    image: "/images/client-image/client3.jpg",
+  },
+  {
+    text: "As an insurance agent, I can confidently say that partnering with Insofy has been one of the best decisions I've made for my business. Their cutting-edge technology and responsive support team have elevated my services to new heights.",
+    name: "Soumyadipta Majum",
+    role: "POS Certified Partner",
+    image: "/images/client-image/client4.jpg",
+  },
+  {
+    text: "Insofy's commitment to innovation and excellence is truly commendable. As an insurance agent, I've experienced firsthand the positive impact their solutions have had on my business operations and client satisfaction.",
+    name: "Mayank Sinha",
+    role: "POS Certified Partner",
+    image: "/images/client-image/client5.jpg",
+  },
+  {
+    text: "I've been in the insurance industry for years, and Insofy stands out as a beacon of excellence. Their dedication to providing top-notch solutions and unparalleled support makes them a trusted partner for any insurance professional.",
+    name: "Akshun Akul",
+    role: "POS Certified Partner",
+    image: "/images/client-image/client4.jpg",
+  },
+];
+
 const Testimonials: React.FC = () => {
   return (
     <>
-      <div className="feedback-area ptb-100 bg-color" style={{marginTop:"-10px"}}>
+      <div className="feedback-area ptb-100 bg-color" style={{ marginTop: "-10px" }}>
         <div className="container">
           <div className="section-title">
             <span className="sub-title">Testimonials</span>
@@ -43,95 +76,23 @@ const Testimonials: React.FC = () => {
           modules={[Autoplay, Pagination]}
           className="feedback-slides"
         >
-          <SwiperSlide>
-            <div className="single-feedback-item">
-              <p>
-                "Working as an insurance agent with Insofy has been an absolute game-changer for my business. The seamless and efficient processes have allowed me to focus more on serving my clients, resulting in increased satisfaction and retention rates."
-              </p>
-              <div className="client-info">
-                <Image
-                  src="/images/client-image/client2.jpg"
-                  alt="image"
-                  width={150}
-                  height={150}
-                />
-                <h3>Alice Johnson</h3>
-                <span>POS Certified Partner</span>
+          {testimonials.map((testimonial, index) => (
+            <SwiperSlide key={index}>
+              <div className="single-feedback-item">
+                <p>{testimonial.text}</p>
+                <div className="client-info">
+                  <Image
+                    src={testimonial.image}
+                    alt="image"
+                    width={150}
+                    height={150}
+                  />
+                  <h3>{testimonial.name}</h3>
+                  <span>{testimonial.role}</span>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="single-feedback-item">
-              <p>
-                "Insofy's insurance solutions have revolutionized the way I conduct business. The intuitive platform and prompt support have made my job significantly easier, allowing me to focus on providing the best service to my clients."
-              </p>
-              <div className="client-info">
-                <Image
-                  src="/images/client-image/client3.jpg"
-                  alt="image"
-                  width={150}
-                  height={150}
-                />
-                <h3>Michael Adams</h3>
-                <span>POS Certified Partner</span>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="single-feedback-item">
-              <p>
-                "As an insurance agent, I can confidently say that partnering with Insofy has been one of the best decisions I've made for my business. Their cutting-edge technology and responsive support team have elevated my services to new heights."
-              </p>
-              <div className="client-info">
-                <Image
-                  src="/images/client-image/client4.jpg"
-                  alt="image"
-                  width={150}
-                  height={150}
-                />
-                <h3>Emily Thompson</h3>
-                <span>POS Certified Partner</span>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="single-feedback-item">
-              <p>
-                "Insofy's commitment to innovation and excellence is truly commendable. As an insurance agent, I've experienced firsthand the positive impact their solutions have had on my business operations and client satisfaction."
-              </p>
-              <div className="client-info">
-                <Image
-                  src="/images/client-image/client5.jpg"
-                  alt="image"
-                  width={150}
-                  height={150}
-                />
-                <h3>John Doe</h3>
-                <span>POS Certified Partner</span>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="single-feedback-item">
-              <p>
-                "I've been in the insurance industry for years, and Insofy stands out as a beacon of excellence. Their dedication to providing top-notch solutions and unparalleled support makes them a trusted partner for any insurance professional."
-              </p>
-              <div className="client-info">
-                <Image
-                  src="/images/client-image/client4.jpg"
-                  alt="image"
-                  width={150}
-                  height={150}
-                />
-                <h3>Samantha Smith</h3>
-                <span>POS Certified Partner</span>
-              </div>
-            </div>
-          </SwiperSlide>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </>

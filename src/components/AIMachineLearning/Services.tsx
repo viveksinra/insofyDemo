@@ -10,8 +10,8 @@ const services = [
     title: "Timely Payouts",
     description:
       "Say goodbye to long waits for payments on policy issuance! With us, get TIMELY PAYOUT",
-    imageSrc: "/images/machine-learning/ml-service3.png",
-    imageWidth: 148,
+    imageSrc: "/images/services/timely.png",
+    imageWidth: 200,
     imageHeight: 180,
     link: "/services/details",
     buttonTitle: "Start Earning Now"
@@ -21,7 +21,7 @@ const services = [
     title: "Fully Digital Process",
     description:
       "No middlemen, no hidden charges - what you deserve is what you get! View & track your payments with your unique ID!",
-    imageSrc: "/images/machine-learning/ml-service4.png",
+    imageSrc: "/images/services/fully_digital.png",
     imageWidth: 200,
     imageHeight: 180,
     link: "/services/details",
@@ -32,7 +32,7 @@ const services = [
     title: "Dedicated Support",
     description:
       "Stuck somewhere? No worries! Our dedicated support team is there to help you-wherever, whenever!",
-    imageSrc: "/images/machine-learning/ml-service5.png",
+    imageSrc: "/images/services/support.png",
     imageWidth: 200,
     imageHeight: 180,
     link: "/services/details",
@@ -45,12 +45,12 @@ const Services: React.FC = () => {
     <>
       <div className="ml-services-area bg-f2f2f7 pt-100 pb-70">
         <div className="container">
-          <div className="section-title">
-            <span className="sub-title">Our Services</span>
-            <h2>Advantages with Insofy POSP</h2>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do aliqua.
-            </p> */}
+          <div className="section-title with-line-text-with-white-color">
+          <span className="sub-title">Our Services</span>
+
+            <h2>
+            Advantages with <span>Insofy</span> POSP
+            </h2>
           </div>
 
           <div className="row">

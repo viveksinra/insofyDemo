@@ -19,6 +19,9 @@ import Pricing from "../components/Common/Pricing";
 import SubscribeFluid from "../components/Common/SubscribeFluid";
 import LatestNews from "../components/Common/LatestNews";
 import Footer from "../components/Layout/Footer";
+import FooterThree from "../components/Layout/FooterThree";
+
+
 import Faq from "@/components/SaasAgency/Faq";
 
 export default function Home() {
@@ -55,7 +58,7 @@ export default function Home() {
       <LatestNews />
       <Faq/>
 
-      <Footer />
+      <FooterThree />
     </>
   );
 }
