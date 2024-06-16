@@ -58,8 +58,8 @@ const Navbar: React.FC = () => {
                 <Image
                   src="/images/logo.png"
                   alt="logo"
-                  width={124}
-                  height={38}
+                  width={186}
+                  height={60}
                 />
               </Link>
 

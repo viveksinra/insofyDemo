@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
@@ -13,10 +12,7 @@ const BannerSlider: React.FC = () => {
 
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=bk7McNUjWgw"]}
-      />
+  
 
       <Swiper
         navigation={true}
@@ -35,37 +31,33 @@ const BannerSlider: React.FC = () => {
                 <div className="container mt-50">
                   <div className="row align-items-center">
                     <div className="col-lg-6">
-                      <div className="banner-content">
-                        <h1>Digital Agency with Excellence Service</h1>
+                    <div className="hero-main-banner-content">
+                    <span className="sub-title">Insurance, Simply better</span>
+                    <h1>Partner With Us,
+Grow Your Insurance Business Today</h1>
+                    <p>
+                      We work hand-in-hand with industry-leading brands 
+                    </p>
 
-                        <p>
-                          We work hand-in-hand with industry-leading brands to
-                          help redefine the possibilities and potential of
-                          digital engagements.
-                        </p>
-
-                        <div className="banner-btn">
-                          <Link href="/contact" className="default-btn mr-3">
-                            Get Started <span></span>
-                          </Link>
-
-                          <div
-                            className="video-btn"
-                            onClick={() => setToggler(!toggler)}
-                          >
-                            <i className="flaticon-play-button"></i> Play Video
-                          </div>
-                        </div>
-                      </div>
+                    <form>
+                      <input
+                        type="mobile"
+                        className="input-newsletter"
+                        placeholder="Enter your mobile number"
+                        name="MOBILE"
+                      />
+                      <button type="submit">Sign Up</button>
+                    </form>
+                  </div>
                     </div>
 
                     <div className="col-lg-6">
                       <div className="seo-banner-image animate-tb">
                         <Image
-                          src="/images/seo-banner/seo-banner1.png"
+                           src="/images/banner-image/main-pic3.png"
                           alt="image"
-                          width={650}
-                          height={502}
+                          width={639}
+                          height={391}
                         />
                       </div>
                     </div>
@@ -155,14 +147,14 @@ const BannerSlider: React.FC = () => {
                 height={355}
               />
             </div>
-            <div className="shape-img14">
+            {/* <div className="shape-img14">
               <Image
                 src="/images/shape/shape14.png"
                 alt="image"
                 width={234}
                 height={355}
               />
-            </div>
+            </div> */}
           </div>
         </SwiperSlide>
 
@@ -173,34 +165,30 @@ const BannerSlider: React.FC = () => {
                 <div className="container mt-50">
                   <div className="row align-items-center">
                     <div className="col-lg-6">
-                      <div className="banner-content">
-                        <h1>Creative & Strategic Digital Marketing Agency</h1>
+                    <div className="hero-main-banner-content">
+                    <span className="sub-title">Insurance, Simply better</span>
+                    <h1>Partner With Us,
+Grow Your Insurance Business Today</h1>
+                    <p>
+                      We work hand-in-hand with industry-leading brands 
+                    </p>
 
-                        <p>
-                          We work hand-in-hand with industry-leading brands to
-                          help redefine the possibilities and potential of
-                          digital engagements.
-                        </p>
-
-                        <div className="banner-btn">
-                          <Link href="/contact" className="default-btn mr-3">
-                            Get Started <span></span>
-                          </Link>
-
-                          <div
-                            className="video-btn"
-                            onClick={() => setToggler(!toggler)}
-                          >
-                            <i className="flaticon-play-button"></i> Play Video
-                          </div>
-                        </div>
-                      </div>
+                    <form>
+                      <input
+                        type="mobile"
+                        className="input-newsletter"
+                        placeholder="Enter your mobile number"
+                        name="MOBILE"
+                      />
+                      <button type="submit">Sign Up</button>
+                    </form>
+                  </div>
                     </div>
 
                     <div className="col-lg-6">
                       <div className="seo-banner-image animate-tb">
                         <Image
-                          src="/images/seo-banner/seo-banner2.png"
+                          src="/images/banner-image/main-pic2.png"
                           alt="image"
                           width={650}
                           height={420}
@@ -293,14 +281,14 @@ const BannerSlider: React.FC = () => {
                 height={355}
               />
             </div>
-            <div className="shape-img14">
+            {/* <div className="shape-img14">
               <Image
                 src="/images/shape/shape14.png"
                 alt="image"
                 width={234}
                 height={355}
               />
-            </div>
+            </div> */}
           </div>
         </SwiperSlide>
 
@@ -311,35 +299,30 @@ const BannerSlider: React.FC = () => {
                 <div className="container mt-50">
                   <div className="row align-items-center">
                     <div className="col-lg-6">
-                      <div className="banner-content">
-                        <h1>Partner With Us,
+                    <div className="hero-main-banner-content">
+                    <span className="sub-title">Insurance, Simply better</span>
+                    <h1>Partner With Us,
 Grow Your Insurance Business Today</h1>
+                    <p>
+                      We work hand-in-hand with industry-leading brands 
+                    </p>
 
-                        <p>
-                          We work hand-in-hand with industry-leading brands to
-                          help redefine the possibilities and potential of
-                          digital engagements.
-                        </p>
-
-                        <div className="banner-btn">
-                          <Link href="/contact" className="default-btn mr-3">
-                            Get Started <span></span>
-                          </Link>
-
-                          <div
-                            className="video-btn"
-                            onClick={() => setToggler(!toggler)}
-                          >
-                            <i className="flaticon-play-button"></i> Play Video
-                          </div>
-                        </div>
-                      </div>
+                    <form>
+                      <input
+                        type="mobile"
+                        className="input-newsletter"
+                        placeholder="Enter your mobile number"
+                        name="MOBILE"
+                      />
+                      <button type="submit">Sign Up</button>
+                    </form>
+                  </div>
                     </div>
 
                     <div className="col-lg-6">
                       <div className="seo-banner-image animate-tb">
                         <Image
-                          src="/images/seo-banner/seo-banner3.png"
+                          src="/images/banner-image/main-pic.png"
                           alt="image"
                           width={650}
                           height={417}

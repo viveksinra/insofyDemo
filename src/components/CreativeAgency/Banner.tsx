@@ -37,144 +37,15 @@ Grow Your Insurance Business Today</h1>
                 <div className="col-lg-6 col-md-12">
                   <div className="hero-main-banner-image">
                     <Image
-                      src="/images/banner-image/man.png"
+                      src="/images/banner-image/main-pic.png"
                       alt="man"
-                      width={340}
-                      height={400}
+                      width={640}
+                      height={600}
                       data-aos="fade-down"
                       data-aos-duration="800"
                       data-aos-delay="30"
                     />
 
-                    <Image
-                      src="/images/banner-image/ins.png"
-                      alt="code"
-                      width={174}
-                      height={111}
-                      data-aos="fade-down"
-                      data-aos-duration="800"
-                      data-aos-delay="60"
-                    />
-
-                    <Image
-                      src="/images/banner-image/carpet.png"
-                      alt="carpet"
-                      width={510}
-                      height={293}
-                      data-aos="fade-right"
-                      data-aos-duration="800"
-                      data-aos-delay="90"
-                    />
-
-                    <Image
-                      src="/images/banner-image/bin.png"
-                      alt="bin"
-                      width={86}
-                      height={112}
-                      data-aos="zoom-in"
-                      data-aos-duration="800"
-                      data-aos-delay="120"
-                    />
-
-                    <Image
-                      src="/images/banner-image/book.png"
-                      alt="book"
-                      width={78}
-                      height={74}
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="150"
-                    />
-
-                    <Image
-                      src="/images/banner-image/desktop.png"
-                      alt="desktop"
-                      width={105}
-                      height={147}
-                      data-aos="fade-down"
-                      data-aos-duration="800"
-                      data-aos-delay="180"
-                    />
-
-                    <Image
-                      src="/images/banner-image/dot.png"
-                      alt="dot"
-                      width={94}
-                      height={70}
-                      data-aos="zoom-in"
-                      data-aos-duration="800"
-                      data-aos-delay="210"
-                    />
-
-                    <Image
-                      src="/images/banner-image/flower-top-big.png"
-                      alt="flower-top-big"
-                      width={78}
-                      height={290}
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="240"
-                    />
-
-                    <Image
-                      src="/images/banner-image/flower-top.png"
-                      alt="flower-top"
-                      width={53}
-                      height={87}
-                      data-aos="fade-in"
-                      data-aos-duration="800"
-                      data-aos-delay="270"
-                    />
-
-                    <Image
-                      src="/images/banner-image/keyboard.png"
-                      alt="keyboard"
-                      width={121}
-                      height={73}
-                      data-aos="fade-down"
-                      data-aos-duration="800"
-                      data-aos-delay="300"
-                    />
-
-                    <Image
-                      src="/images/banner-image/pen.png"
-                      alt="pen"
-                      width={42}
-                      height={77}
-                      data-aos="zoom-in"
-                      data-aos-duration="800"
-                      data-aos-delay="330"
-                    />
-
-                    <Image
-                      src="/images/banner-image/table.png"
-                      alt="table"
-                      width={380}
-                      height={342}
-                      data-aos="zoom-in"
-                      data-aos-duration="800"
-                      data-aos-delay="360"
-                    />
-
-                    <Image
-                      src="/images/banner-image/tea-cup.png"
-                      alt="tea-cup"
-                      width={44}
-                      height={104}
-                      data-aos="fade-right"
-                      data-aos-duration="800"
-                      data-aos-delay="390"
-                    />
-
-                    <Image
-                      src="/images/banner-image/headphone.png"
-                      alt="headphone"
-                      width={62}
-                      height={62}
-                      data-aos="fade-up"
-                      data-aos-duration="800"
-                      data-aos-delay="420"
-                    />
 
                     {/* Main Images */}
                     <Image

@@ -1,8 +1,14 @@
 import Navbar from "../components/Layout/Navbar";
 import Banner from "../components/CreativeAgency/Banner";
+import BannerSlider from "../components/SEOAgency/BannerSlider";
+
 import FeaturedServices from "../components/CreativeAgency/FeaturedServices";
 import PartnerSlider from "../components/Common/Partner/PartnerSlider";
 import OurServices from "../components/CreativeAgency/OurServices";
+import Services from "../components/AIMachineLearning/Services";
+import ServicesTwo from "../components/AIMachineLearning/ServicesTwo";
+
+
 import OurFeaturesTab from "../components/Common/OurFeaturesTab";
 import FunFacts from "../components/Common/FunFacts";
 import ProjectGallerySlider from "../components/Common/ProjectGallerySlider";
@@ -20,14 +26,15 @@ export default function Home() {
     <>
       <Navbar />
 
-      <Banner />
+      <BannerSlider />
 
-      <FeaturedServices />
+      <Services />
+      <ServicesTwo />
 
 
       {/* <OurServices /> */}
 
-      <OurFeaturesTab />
+      {/* <OurFeaturesTab /> */}
 
       {/* <FunFacts /> */}
 
@@ -37,13 +44,13 @@ export default function Home() {
       <PartnerSlider />
 
 
-      <Solution />
+      {/* <Solution /> */}
 
       <Testimonials />
 
       {/* <Pricing /> */}
 
-      <SubscribeFluid />
+      {/* <SubscribeFluid /> */}
 
       <LatestNews />
       <Faq/>

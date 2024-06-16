@@ -7,7 +7,7 @@ import Image from "next/image";
 const LatestNews: React.FC = () => {
   return (
     <>
-      <div className="blog-area ptb-100 bg-F4F7FC">
+      <div className="blog-area ptb-100 bg-F4F7FC" >
         <div className="container">
           <div className="section-title">
             <span className="sub-title">Latest News</span>

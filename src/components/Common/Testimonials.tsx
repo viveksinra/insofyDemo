@@ -8,11 +8,11 @@ import Image from "next/image";
 const Testimonials: React.FC = () => {
   return (
     <>
-      <div className="feedback-area ptb-100 bg-color">
+      <div className="feedback-area ptb-100 bg-color" style={{marginTop:"-10px"}}>
         <div className="container">
           <div className="section-title">
             <span className="sub-title">Testimonials</span>
-            <h2>Some Lovely Feedback From Our Clients</h2>
+            <h2>Our Partners Speak For Us</h2>
           </div>
         </div>
 
@@ -22,7 +22,7 @@ const Testimonials: React.FC = () => {
             clickable: true,
           }}
           autoplay={{
-            delay: 6500,
+            delay: 4500,
             disableOnInteraction: true,
             pauseOnMouseEnter: true,
           }}
@@ -56,7 +56,7 @@ const Testimonials: React.FC = () => {
                   height={150}
                 />
                 <h3>Alice Johnson</h3>
-                <span>Insurance Agent</span>
+                <span>POS Certified Partner</span>
               </div>
             </div>
           </SwiperSlide>
@@ -74,7 +74,7 @@ const Testimonials: React.FC = () => {
                   height={150}
                 />
                 <h3>Michael Adams</h3>
-                <span>Insurance Agent</span>
+                <span>POS Certified Partner</span>
               </div>
             </div>
           </SwiperSlide>
@@ -92,7 +92,7 @@ const Testimonials: React.FC = () => {
                   height={150}
                 />
                 <h3>Emily Thompson</h3>
-                <span>Insurance Agent</span>
+                <span>POS Certified Partner</span>
               </div>
             </div>
           </SwiperSlide>
@@ -110,7 +110,7 @@ const Testimonials: React.FC = () => {
                   height={150}
                 />
                 <h3>John Doe</h3>
-                <span>Insurance Agent</span>
+                <span>POS Certified Partner</span>
               </div>
             </div>
           </SwiperSlide>
@@ -128,7 +128,7 @@ const Testimonials: React.FC = () => {
                   height={150}
                 />
                 <h3>Samantha Smith</h3>
-                <span>Insurance Agent</span>
+                <span>POS Certified Partner</span>
               </div>
             </div>
           </SwiperSlide>

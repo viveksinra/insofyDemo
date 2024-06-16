@@ -7,47 +7,43 @@ import Image from "next/image";
 const services = [
   {
     id: 1,
-    title: "Timely Payouts",
+    title: "Partner with us",
     description:
-      "Say goodbye to long waits for payments on policy issuance! With us, get TIMELY PAYOUT",
+      "Fill up the simple one-time form and you are set to go with the best earnings & benefits on offer!",
     imageSrc: "/images/machine-learning/ml-service3.png",
     imageWidth: 148,
     imageHeight: 180,
-    link: "/services/details",
-    buttonTitle: "Start Earning Now"
+  
   },
   {
     id: 2,
-    title: "Fully Digital Process",
+    title: "Expand your network & start earning",
     description:
-      "No middlemen, no hidden charges - what you deserve is what you get! View & track your payments with your unique ID!",
+      "We're here to simplify the process for you as a leading insurance broker!",
     imageSrc: "/images/machine-learning/ml-service4.png",
     imageWidth: 200,
     imageHeight: 180,
-    link: "/services/details",
-    buttonTitle: "Sign Up"
+
   },
   {
     id: 3,
-    title: "Dedicated Support",
+    title: "Earn good commission",
     description:
-      "Stuck somewhere? No worries! Our dedicated support team is there to help you-wherever, whenever!",
+      "Make more money per insurance policy! Too good to be true? Speak to our experts to know how!",
     imageSrc: "/images/machine-learning/ml-service5.png",
     imageWidth: 200,
     imageHeight: 180,
-    link: "/services/details",
-    buttonTitle: "Register With Us"
+  
   },
 ];
 
-const Services: React.FC = () => {
+const ServicesTwo: React.FC = () => {
   return (
     <>
-      <div className="ml-services-area bg-f2f2f7 pt-100 pb-70">
+      <div className="ml-services-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">Our Services</span>
-            <h2>Advantages with Insofy POSP</h2>
+            <h2>How It Works</h2>
             {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do aliqua.
             </p> */}
@@ -56,7 +52,7 @@ const Services: React.FC = () => {
           <div className="row">
             {services.map((service) => (
               <div key={service.id} className="col-lg-4 col-md-6" style={{ display: 'flex' }}>
-                <div className="ml-service" style={{ flex: '1', display: 'flex', flexDirection: 'column', height: '400px', justifyContent: 'space-between', padding: '20px', boxSizing: 'border-box' }}>
+                <div className="ml-service" style={{ flex: '1', display: 'flex', flexDirection: 'column', height: '400px', justifyContent: 'space-between', padding: '20px', boxSizing: 'border-box', backgroundColor: '#f9f9f9', borderRadius:"50px" }}>
                   <div>
                     <div className="image">
                       <Image
@@ -67,16 +63,19 @@ const Services: React.FC = () => {
                       />
                     </div>
                     <h3 style={{ marginTop: '20px' }}>
-                      <Link href={service.link}>{service.title}</Link>
+                      {service.title}
                     </h3>
                     <p>{service.description}</p>
                   </div>
-                  <Link href={service.link} className="default-btn" style={{ alignSelf: 'center', marginTop: '20px' }}>
-                    {service.buttonTitle} <span></span>
-                  </Link>
                 </div>
               </div>
             ))}
+          </div>
+
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+            <Link href="/services" className="default-btn" style={{ width: '20%' }}>
+              Become A POSP Partner <span></span>
+            </Link>
           </div>
         </div>
       </div>
@@ -84,4 +83,4 @@ const Services: React.FC = () => {
   );
 };
 
-export default Services;
+export default ServicesTwo;
